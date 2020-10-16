@@ -5,7 +5,7 @@ resource "tfe_workspace" "aws_terraform_demo_setup" {
   organization   = var.org_name
   queue_all_runs = false
   vcs_repo {
-    identifier     = "mtharpe/terraform-aws-demo"
+    identifier     = "akentosh/terraform-aws-demo"
     branch         = "master"
     oauth_token_id = var.oauth_token_id
   }
