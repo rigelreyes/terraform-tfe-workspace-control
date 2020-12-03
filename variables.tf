@@ -39,19 +39,6 @@ variable "instance_password" {
   description = "Password to connect to instances"
 }
 
-# GCP Variables
-variable "google_credentials" {
-  description = "Google Cloud Credentials"
-}
-
-variable "google_region" {
-  description = "Google Cloud Region"
-}
-
-variable "google_project" {
-  description = "Google Cloud Project"
-}
-
 # Azure Variables
 variable "azure_subscription_id" {
   description = "Azure Subscription ID"
