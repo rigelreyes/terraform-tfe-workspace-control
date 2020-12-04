@@ -9,6 +9,14 @@ variable "oauth_token_id" {
   description = "Terraform Enterprise/Cloud VCS oauth token ID (found in settings/VCS)"
 }
 
+variable "instance_username" {
+  description = "Username to connect to instances"
+}
+
+variable "instance_password" {
+  description = "Password to connect to instances"
+}
+
 # Azure Variables
 variable "azure_subscription_id" {
   description = "Azure Subscription ID"
